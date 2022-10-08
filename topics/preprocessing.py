@@ -6,6 +6,8 @@ from typing import List
 from nltk.corpus import stopwords
 from pymystem3 import Mystem
 from stop_words import get_stop_words
+import nltk
+nltk.download('stopwords')
 
 
 class TextPreprocessor:
